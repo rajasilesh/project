@@ -1,0 +1,133 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+
+    /* header */
+header{ 
+margin: 0;
+width: 100%;
+background-color: blueviolet;
+padding: 10px 0;
+}
+
+header ul {
+    padding: 0%;
+    list-style: none;
+    text-align: right;
+    padding-right: 10px;
+}
+header li{
+    display: inline-block;
+}
+header a{
+    color: aquamarine;
+    text-decoration: none;
+    font-size:20px;
+    text-align: right;
+    padding: 15px;
+}
+/* header a:hover{
+    background-color: brown                                                                                                                                                                   ;
+} */
+/* section */
+.middle-container{
+    margin: 50px;
+}
+.profile{
+    padding:60px 0 100px 0;
+}
+.skills{
+ position:absolute;
+ top:700px;
+ left:260px;
+}
+.skill-row{
+    margin: 100px auto;
+
+}
+.computer{
+    float:left;
+    margin-right: 20px;
+    line-height: 4;
+    text-align: right;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+}
+.javascript{
+    float:right;
+    margin-left: 20px;
+    line-height: 4;
+    text-align: right;
+    position: relative;
+    bottom: 75px;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+
+}
+.contact-me{
+    position:relative;
+    top: 750px;
+}
+.btn{
+    color: black;
+}
+/* footer */
+footer{
+width:100%;
+
+}
+.button-container{
+    background-color: antiquewhite;
+    text-align: center;
+    color: rgb(4, 77, 77);
+    padding-top: 20px;
+    width: 100%;
+    position: absolute;
+    top: 1600px;
+    left: 0%;
+    right: 0%;
+    
+}
+/* html element */
+h1{
+    color: rgb(138, 88, 24);
+    line-height: 2;
+    
+}
+h2{
+    color:rgb(112, 109, 104);
+    line-height: 2px;
+    padding-bottom : 10px;
+}
+h3{
+    color: rgb(117, 178, 231);
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+a{
+    color: rgb(218, 76, 182);
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:rgb(59, 32, 32);
+    border-width:5px;
+    width:5%;
+}
+.hr2{
+    position: relative;
+    left:15px;
+    top:680;
+}
